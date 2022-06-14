@@ -1,0 +1,44 @@
+.flex-container {
+  /* display: flex; */
+  margin: 0 auto;
+  padding-top: 0;
+}
+.flex-container div {
+  background: peachpuff;
+  border: 0px solid brown;
+  height: 250px;
+  /* flex: 1; */
+}
+.top {
+  height: 50px;
+  margin-top: 0%;
+  margin-left: 0%;
+  padding-left: 0%;
+  text-align: end;
+}
+
+ul {
+  list-style: none;
+  float: right;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.flex-container .one {
+  background-color: #1f2937;
+}
+
+.flex-container .two div {
+  background-color: white;
+  display: flex;
+  flex: 1;
+}
+
+.flex-container .two .child1 {
+  background-color: white;
+  flex: 2;
+}
+
+.flex-container .two .child2 {
+  background-color: #e5e7eb;
+}
