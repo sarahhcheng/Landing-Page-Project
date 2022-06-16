@@ -1,0 +1,158 @@
+.flexbox-container {
+  background-color: white;
+  margin: 0 auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  margin-top: -18px;
+  margin-left: -15px;
+}
+
+.flexbox-item {
+  width: 100%;
+  margin: 10px;
+  background-color: white;
+  align-self: flex-start;
+  color: aliceblue;
+}
+
+.flexbox-item-1 {
+  min-height: 70px;
+  background-color: #1f2937;
+}
+
+.flexbox-item-1 ul {
+  list-style: none;
+  color: aliceblue;
+  font-family: Roboto;
+}
+
+.flexbox-item-2 {
+  min-height: 200px;
+  background-color: #1f2937;
+  display: flex;
+}
+
+.child1 {
+  max-width: 500px;
+}
+
+.child1 h1 {
+  margin-left: 100px;
+  color: aliceblue;
+  font-weight: 100;
+}
+
+.child1 p {
+  margin-left: 100px;
+  color: aliceblue;
+  font-weight: 100;
+}
+
+.child1 button {
+  display: block;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: auto;
+  font-family: Roboto;
+}
+
+.child2 img {
+  display: block;
+  margin-right: auto;
+  border-radius: 10px;
+}
+.flexbox-item-3 {
+  min-height: 200px;
+}
+
+.flexbox-item-3 h1 {
+  color: #1f2937;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 100;
+  font-size: 25px;
+  min-height: none;
+}
+
+.kid1 {
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.kid1 .grandkid1 {
+  height: 100px;
+  width: 100px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+}
+
+.kid1 .grandkid2 {
+  height: 100px;
+  width: 100px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+}
+
+.kid1 .grandkid3 {
+  height: 100px;
+  width: 100px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+}
+
+.kid1 .grandkid4 {
+  height: 100px;
+  width: 100px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+}
+
+.flexbox-item-3 .kid2 {
+  height: 150px;
+  background-color: #e5e7eb;
+}
+
+.flexbox-item-3 .kid3 {
+  height: 165px;
+  display: flex;
+}
+
+.kid3 .baby {
+  height: 100px;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-top: 0 auto;
+  background-color: #3882f6;
+  border-radius: 5px;
+}
+
+.kid3 .baby p {
+  text-align: center;
+}
+.kid3 .baby button {
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  font-family: Roboto;
+  cursor: pointer;
+}
+
+.kid4 {
+  height: 50px;
+  background-color: #1f2937;
+}
+
+.kid4 p {
+  text-align: center;
+  padding-top: 10px;
+}
