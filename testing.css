@@ -35,32 +35,56 @@
 }
 
 .child1 {
-  max-width: 500px;
+  max-width: 900px;
 }
 
 .child1 h1 {
-  margin-left: 100px;
+  margin-left: 450px;
   color: aliceblue;
   font-weight: 100;
 }
 
 .child1 p {
-  margin-left: 100px;
+  margin-left: 450px;
   color: aliceblue;
   font-weight: 100;
+}
+
+.nice ul {
+  float: right;
+  display: inline;
+}
+
+.nice li {
+  display: inline;
+  padding: 10px 10px;
 }
 
 .child1 button {
   display: block;
   border-radius: 10px;
   cursor: pointer;
-  margin: auto;
+  margin-left: 450px;
+  text-align: end;
   font-family: Roboto;
+  border: 0px;
+  padding: 5px 10px;
+  font-size: medium;
+}
+
+.child1 button:hover {
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: Roboto;
+  border: 0px;
+  padding: 5px 10px;
+  font-size: medium;
+  background-color: powderblue;
 }
 
 .child2 img {
   display: block;
-  margin-right: auto;
+  margin-left: 50px;
   border-radius: 10px;
 }
 .flexbox-item-3 {
@@ -145,11 +169,26 @@
   margin: 0 auto;
   font-family: Roboto;
   cursor: pointer;
+  background-color: white;
+  border: 10px;
+  padding: 3px 7px;
 }
 
+.kid3 .baby button:hover {
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  font-family: Roboto;
+  cursor: pointer;
+  background-color: darkslateblue;
+  border: 10px;
+  padding: 3px 7px;
+  color: #e5e7eb;
+}
 .kid4 {
   height: 50px;
   background-color: #1f2937;
+  margin-bottom: -10px;
 }
 
 .kid4 p {
